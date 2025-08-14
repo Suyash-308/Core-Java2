@@ -6,13 +6,13 @@ public class Demo9 {
 
     int left=0,right=array.length-1;
 
-    boolean isPalidrome=true;
+    boolean isPalindrome=true;
     while(left<right) {
         int temp = array[left];
         array[left] = array[right];
         array[right] = temp;
         if(array[left] != array[right]){
-          isPalidrome=false;
+          isPalindrome=false;
           break;
         }
         left++;
@@ -23,6 +23,6 @@ public class Demo9 {
         System.out.print(array[i]+" ");
     }
     System.out.println();
-System.out.println(isPalidrome?" palidrome": "not palidrome");
+System.out.println(isPalindrome?" palindrome": "not palindrome");
     }
 }
