@@ -1,6 +1,6 @@
 package Arrays;
 
-public class Demo8 {
+public class ReverseArray {
     public static void main(String[] args){
         int[] array={10,20,30,40,50};
         int left=0,right=array.length-1;

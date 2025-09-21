@@ -1,6 +1,6 @@
 package Arrays;
 
-public class Demo6 {
+public class Demo6SecMAx {
     public static void main(String[] args){
         int[] array={10,2,40,80,70,50,45,980,32,800};
         int max=Integer.MIN_VALUE;

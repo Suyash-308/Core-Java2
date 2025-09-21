@@ -1,6 +1,6 @@
 package Arrays;
 
-public class Demo10 {
+public class Demo10CheckEqual {
     public static void main(String[] args) {
         int[] arr1 = {10, 30, 50, 20};
         int[] arr2 = {10, 30, 50, 20};

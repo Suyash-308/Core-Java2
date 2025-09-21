@@ -1,6 +1,6 @@
 package Arrays;
 
-public class Demo7 {
+public class Demo7SecMin {
     public static void main (String[] args){
         int[] array={10,30,40,32,89,65,56};
         int min=Integer.MAX_VALUE;

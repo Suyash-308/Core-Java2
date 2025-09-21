@@ -1,6 +1,6 @@
 package Arrays;
 
-public class Demo9 {
+public class Demo9Palidrome {
     public static void main(String[] args){
     int[] array={10,20,30,43,20,10};
 
