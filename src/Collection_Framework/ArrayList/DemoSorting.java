@@ -11,6 +11,9 @@ public class DemoSorting {
         arrayList.add("Manoj");
         arrayList.add("Ram");
         arrayList.add("Vishnu");
+        arrayList.add("arnav");
+
+        // Small char contain high value
 
 
         System.out.println(arrayList);

@@ -9,7 +9,10 @@ public class Demo2Sorting {
         vector.add("Suyash");
         vector.add("Shyam");
         vector.add("Aryan");
+        vector.add("google");
         vector.add("Alice");
+
+        // Small char have the highest order
 
         System.out.println(vector);
 
