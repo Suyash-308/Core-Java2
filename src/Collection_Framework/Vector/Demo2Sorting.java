@@ -5,8 +5,8 @@ import java.util.Vector;
 
 public class Demo2Sorting {
     public static void main(String[] args){
-        Vector vector=new Vector<>();
-        vector.add("Suyash");
+        Vector<String> vector=new Vector<>();
+        vector.add("Subhash");
         vector.add("Shyam");
         vector.add("Aryan");
         vector.add("google");

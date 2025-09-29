@@ -5,7 +5,7 @@ import java.util.function.Predicate;
 
 public class Demo2RemovalIf {
     public static void main(String[] args){
-        Vector vector=new Vector<>();
+        Vector vector=new Vector();
         vector.add(10);
         vector.add(11);
         vector.add(12);
@@ -20,6 +20,8 @@ public class Demo2RemovalIf {
         Predicate<Integer> oddRemoval=X->X % 2==1;
         vector.removeIf(oddRemoval);
         System.out.println(vector);
+
+
 
 
 
