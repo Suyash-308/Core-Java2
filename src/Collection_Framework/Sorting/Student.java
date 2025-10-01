@@ -24,14 +24,18 @@ public class Student implements Comparable<Student>{
         return name;
     }
     public void setName(String name){
+
         this.name=name;
     }
+
+
 
     @Override
     public String toString() {
         return "id:"+id+"name:"+name;
     }
 
+    @Override
     public int compareTo(Student student) {
         return  this.name.compareTo(student.name);
     }
