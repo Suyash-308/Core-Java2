@@ -34,5 +34,8 @@ public class Demo3Removal {
         System.out.println(hashSet);
 
 
+
+
+
     }
 }

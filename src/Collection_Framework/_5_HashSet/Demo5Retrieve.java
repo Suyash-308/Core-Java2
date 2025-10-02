@@ -23,7 +23,7 @@ public class Demo5Retrieve {
     }
 
     System.out.println("Using java8 feature lambda");
-        Consumer consumer=x->System.out.println(x);
+        Consumer<Integer> consumer=x->System.out.println(x);
         hashSet.forEach(consumer);
 
         System.out.println("Using java8 method Ref");
