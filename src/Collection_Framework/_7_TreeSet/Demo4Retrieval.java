@@ -10,7 +10,7 @@ public class Demo4Retrieval {
         Set<Integer> set=new TreeSet();
         set.add(36);
         set.add(101);
-        set.add(56);gi add
+        set.add(56);
         set.add(45678);
         set.add(8);
 
