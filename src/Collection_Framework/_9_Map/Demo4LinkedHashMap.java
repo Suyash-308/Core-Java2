@@ -15,7 +15,6 @@ public class Demo4LinkedHashMap {
        System.out.println(map.get(1));
        System.out.println(map.entrySet());
 
-       Map map1=map.entrySet();
-       for (Map.Entry())
+
     }
 }
